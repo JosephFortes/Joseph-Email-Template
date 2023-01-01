@@ -10,27 +10,20 @@ flex-direction: column;
 background-color: #547860;
 }
 
-.btn-group-vertical{
-    padding-top: 20px;
-    
-}
 .btn-dark:hover{
-    transform: scale(1.3);
-    
+    transform: scale(1.1);    
 }
+.btn{
+    margin-top: 35px;
+    background-color: rgba(53, 51, 51, 0.6);
+}
+
 .createmessage{
     color: darkslategrey;
-    display: flex;
     position: fixed;
     left: 20px;
     bottom: 20px;
-    
-   
- 
-   
-  
 }
-
 .createmessage:hover{
     transform: scale(1.2);
 }
@@ -40,15 +33,31 @@ background-color: #547860;
 
 .col-md-3{
     background-color: #5C8478;
-    
-    border-style: none;
-    border-color: red;
-
 }
+
+/*EMAIL PREVIEWS*/
+.list-group{
+    padding-top: 20px;   
+    
+ 
+}
+.list-group-item{
+    background-color: rgba(81, 81, 81, 0.4);
+}
+.list-group-item:hover{
+    transform: scale(1.04);
+    background-color: rgb(88, 86, 86);
+}
+.list-group-item.active{
+    background-color: rgb(88, 86, 86) !important;
+   
+}
+
+/*
 .email-preview{
     margin-top: 20px;
     border-radius: 10px;
-    background-color: rgba(53, 51, 51, 0.6); 
+    background-color: rgba(53, 51, 51, 0.4); 
     color: whitesmoke;
     padding-bottom: 20px;
 }
@@ -63,8 +72,6 @@ p2{
     text-indent: 20px;
 }
    
-
-
 .email-preview1{
     background-color: rgba(53, 51, 51, 0.6);
     padding-bottom: 20px;
@@ -76,7 +83,7 @@ p2{
 .email-preview1:hover{
     transform: scale(1.05);
 }
-
+*/
 
 
 /*--COLUMN 3----*/
@@ -84,24 +91,22 @@ p2{
 .col-md-7{
     background-color: #5C8480;
     height: 1080px;
-    
 }
-h1{
-    text-align: left;
-    margin-left: 100px;
+h5{
+    margin-top: 30px;
+}
+.sample-email{
+margin-left: 100px;
+margin-top: 30px;
 }
 
-p{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.form-group{
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.bi-reply{
+.reply{
+    margin-top: 20px;
     margin: CENTER;
+    max-width: 100%;
+}
+.button{
+    margin-left: auto;
 }
 
 
@@ -122,19 +127,24 @@ p{
     .circle{
         display: none;
     }
-    /*.col-md-7{
-        display: none;
+    .col-md-7{
+        text-align: left;
         
-    }*/
+    }
     .email-preview1{
         background-size:contain;
     }
-       
-       
-       
-        
-   
+    .sample-email{
+        background-color: #5C8480;
+  
 }
+.createmessage{
+    display
+}
+.composetext{
+}
+
+
 
 /*---TABLET SIZE---*/
 @media screen and ()
